@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurumsal Portal - Test Sayfası</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        header {
+            background-color: #151d32;
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            min-height: 60vh;
+        }
+
+        h1 {
+            color: #151d32;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Kurumsal Bilgi Portalı</h2>
+        <nav>Ana Sayfa | Hizmetler | İletişim</nav>
+    </header>
+
+    <div class="container">
+        <h1>Hoş Geldiniz</h1>
+        <p>Bu sayfa, Huna AI Web Sohbet Widget'ının dış bir web sitesine nasıl entegre edildiğini göstermek amacıyla
+            hazırlanmış bir test ortamıdır.</p>
+        <p>Sağ alt köşede yer alan asistan, tek bir &lt;script&gt; etiketiyle eklenmiştir. Shadow DOM sayesinde stiller
+            bu sitenin kendi CSS'inden tamamen izole çalışır.</p>
+    </div>
+
+    <script src="http://localhost:3001/huna-widget.js" data-site-key="skjggsdf"></script>
+
+</body>
+
+</html>

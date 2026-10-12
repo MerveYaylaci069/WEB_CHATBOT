@@ -1,0 +1,282 @@
+{
+  "default": {
+    "color": "#21452e",
+    "subtitle": "Genel Asistan",
+    "welcomeMessage": "Merhaba! Belediye hizmetleri hakkında merak ettiklerinizi sorabilirsiniz. 🏛️",
+    "systemPrompt": "Sen Konya Büyükşehir Belediyesi'nin resmi akıllı kurumsal genel asistanı Huna'sın. Görevin, belediyeyi ziyaret eden tüm vatandaşlara kurumun hizmetleri, projeleri ve işlemleri hakkında doğru bilgiler sunmaktır. KESİN KURAL: Asla hayali bilgi uydurma. Emin olmadığın konularda 444 55 42 Açık Kapı hattına veya resmi web sitesine yönlendir.",
+    "botName": "Huna AI",
+    "position": "right",
+    "logoEmoji": "🐺",
+    "logoUrl": "",
+    "maintenanceMode": false,
+    "maintenanceMessage": "Huna AI şu anda bakımda. Lütfen daha sonra tekrar deneyin.",
+    "faqList": [
+      {
+        "tr": "Belediye hangi hizmetleri sunuyor?",
+        "en": "What services does the municipality provide?"
+      },
+      {
+        "tr": "Randevu nasıl alırım?",
+        "en": "How do I make an appointment?"
+      },
+      {
+        "tr": "İletişim bilgilerine nasıl ulaşırım?",
+        "en": "How do I access contact information?"
+      }
+    ],
+    "blockPoliticalTopics": true,
+    "blockProfanity": true,
+    "responseLength": "detailed",
+    "allowImageUpload": false,
+    "allowedFileTypes": {
+      "image": true,
+      "pdf": true,
+      "docx": false
+    },
+    "rateLimit": {
+      "enabled": false,
+      "rpm": 10,
+      "tpm": 20000
+    }
+  },
+  "deneme-sitesi": {
+    "color": "#173173",
+    "subtitle": "Ulaşım ve Kent Kart",
+    "welcomeMessage": "Merhaba! Belediye hizmetleri hakkında merak ettiklerinizi sorabilirsiniz. 🏛️",
+    "systemPrompt": "Sen Konya Büyükşehir Belediyesi Ulaşım Dairesi'nin dijital asistanı Huna'sın. Kent Kart işlemleri, toplu taşıma hatları ve saatleri konusunda vatandaşa yol göster. KESİN KURAL: Asla hayali bilgi uydurma, güncel sefer bilgisi için resmi web sitesine yönlendir.",
+    "botName": "deneme ai",
+    "position": "right",
+    "logoEmoji": "💬",
+    "logoUrl": "",
+    "maintenanceMode": false,
+    "maintenanceMessage": "Huna AI şu anda bakımda. Lütfen daha sonra tekrar deneyin.",
+    "faqList": [
+      {
+        "tr": "Kent Kart nasıl doldurulur?",
+        "en": "How is the City Card filled out?"
+      },
+      {
+        "tr": "Otobüs sefer saatleri nereden öğrenilir?",
+        "en": "Where can bus schedule information be obtained?"
+      },
+      {
+        "tr": "hello",
+        "en": "Hello!"
+      }
+    ],
+    "blockPoliticalTopics": true,
+    "blockProfanity": true,
+    "responseLength": "medium",
+    "allowImageUpload": true,
+    "allowedFileTypes": {
+      "image": true,
+      "pdf": false,
+      "docx": true
+    },
+    "rateLimit": {
+      "enabled": false,
+      "rpm": 10,
+      "tpm": 20000
+    }
+  },
+  "yeni": {
+    "color": "#cce12d",
+    "subtitle": "Sosyal Hizmetler",
+    "welcomeMessage": "Selam! Size nasıl yardımcı olabilirim?",
+    "systemPrompt": "Sen Konya Büyükşehir Belediyesi Sosyal Hizmetler Dairesi'nin dijital asistanı Huna'sın. Sosyal yardım, sosyal kart, erzak yardımı gibi konularda vatandaşa yol göster. KESİN KURAL: Asla hayali bilgi uydurma, başvuru süreçlerinde ilgili birime veya 444 55 42 Açık Kapı hattına yönlendir.",
+    "botName": "Huna AI",
+    "position": "right",
+    "logoEmoji": "🐺",
+    "logoUrl": "",
+    "maintenanceMode": false,
+    "maintenanceMessage": "Huna AI şu anda bakımda. Lütfen daha sonra tekrar deneyin.",
+    "faqList": [
+      {
+        "tr": "Erzak yardımı nasıl alırım?",
+        "en": "How can I get food assistance?"
+      },
+      {
+        "tr": "Sosyal kart başvurusu nasıl yapılır?",
+        "en": "How to apply for a social card?"
+      },
+      {
+        "tr": "Engelli vatandaşlara yönelik destekler nelerdir?",
+        "en": "What support is available for citizens with disabilities?"
+      }
+    ],
+    "blockPoliticalTopics": true,
+    "blockProfanity": true,
+    "responseLength": "medium",
+    "allowImageUpload": true,
+    "allowedFileTypes": {
+      "image": true,
+      "pdf": true,
+      "docx": false
+    },
+    "rateLimit": {
+      "enabled": true,
+      "rpm": 10,
+      "tpm": 20000
+    }
+  },
+  "deneme2": {
+    "color": "#70336e",
+    "subtitle": "İmar ve Şehircilik",
+    "welcomeMessage": "Merhaba! Belediye hizmetleri hakkında merak ettiklerinizi sorabilirsiniz. 🏛️",
+    "systemPrompt": "Sen Konya Büyükşehir Belediyesi İmar ve Şehircilik Dairesi'nin dijital asistanı Huna'sın. İmar durumu, ruhsat işlemleri, plan tadilatları gibi konularda vatandaşa yol göster. KESİN KURAL: Asla hayali bilgi uydurma, resmi süreç gerektiren konularda ilgili birime yönlendir.",
+    "botName": "Huna AI",
+    "position": "right",
+    "logoEmoji": "🏛️",
+    "logoUrl": "",
+    "maintenanceMode": false,
+    "maintenanceMessage": "Huna AI şu anda bakımda. Lütfen daha sonra tekrar deneyin.",
+    "faqList": [
+      {
+        "tr": "İmar durumu nasıl sorgulanır?",
+        "en": "How can I check zoning status?"
+      },
+      {
+        "tr": "Yapı ruhsatı nasıl alınır?",
+        "en": "How do I get a building permit?"
+      },
+      {
+        "tr": "Plan tadilatı başvurusu nasıl yapılır?",
+        "en": "How do I apply for a zoning plan amendment?"
+      }
+    ],
+    "blockPoliticalTopics": true,
+    "blockProfanity": true,
+    "responseLength": "medium",
+    "allowImageUpload": true,
+    "allowedFileTypes": {
+      "image": false,
+      "pdf": true,
+      "docx": false
+    },
+    "rateLimit": {
+      "enabled": true,
+      "rpm": 10,
+      "tpm": 20000
+    }
+  },
+  "emirdeneme": {
+    "color": "#000000",
+    "subtitle": "Ulaşım ve Kent Kart",
+    "welcomeMessage": "Merhaba! Belediye hizmetleri hakkında merak ettiklerinizi sorabilirsiniz. 🏛️",
+    "systemPrompt": "Sen Konya Büyükşehir Belediyesi Ulaşım Dairesi'nin dijital asistanı Huna'sın. Kent Kart işlemleri, toplu taşıma hatları ve saatleri konusunda vatandaşa yol göster. KESİN KURAL: Asla hayali bilgi uydurma, güncel sefer bilgisi için resmi web sitesine yönlendir.",
+    "botName": "Huna AI",
+    "position": "right",
+    "logoEmoji": "💬",
+    "logoUrl": "",
+    "maintenanceMode": false,
+    "maintenanceMessage": "Huna AI şu anda bakımda. Lütfen daha sonra tekrar deneyin.",
+    "faqList": [
+      {
+        "tr": "Kent Kart nasıl doldurulur?",
+        "en": "How do I top up my Kent Kart (city card)?"
+      },
+      {
+        "tr": "Otobüs sefer saatleri nereden öğrenilir?",
+        "en": "Where can I find bus schedules?"
+      },
+      {
+        "tr": "Kayıp Kent Kart için ne yapmalıyım?",
+        "en": "What should I do if I lose my Kent Kart?"
+      }
+    ],
+    "blockPoliticalTopics": true,
+    "blockProfanity": false,
+    "responseLength": "medium",
+    "allowImageUpload": true,
+    "allowedFileTypes": {
+      "image": true,
+      "pdf": true,
+      "docx": true
+    },
+    "rateLimit": {
+      "enabled": false,
+      "rpm": 10,
+      "tpm": 20000
+    }
+  },
+  "staj": {
+    "color": "#151d32",
+    "subtitle": "İmar ve Şehircilik",
+    "welcomeMessage": "Merhaba! Ben Konya Büyükşehir Belediyesi dijital asistanı Huna. Size nasıl yardımcı olabilirim? 🌟",
+    "systemPrompt": "Sen Konya Büyükşehir Belediyesi İmar ve Şehircilik Dairesi'nin dijital asistanı Huna'sın. İmar durumu, ruhsat işlemleri, plan tadilatları gibi konularda vatandaşa yol göster. KESİN KURAL: Asla hayali bilgi uydurma, resmi süreç gerektiren konularda ilgili birime yönlendir.",
+    "botName": "Huna AI",
+    "position": "right",
+    "logoEmoji": "",
+    "logoUrl": "",
+    "maintenanceMode": false,
+    "maintenanceMessage": "Huna AI şu anda bakımda. Lütfen daha sonra tekrar deneyin.",
+    "faqList": [
+      {
+        "tr": "İmar durumu nasıl sorgulanır?",
+        "en": "How can I check zoning status?"
+      },
+      {
+        "tr": "Yapı ruhsatı nasıl alınır?",
+        "en": "How do I get a building permit?"
+      },
+      {
+        "tr": "Plan tadilatı başvurusu nasıl yapılır?",
+        "en": "How do I apply for a zoning plan amendment?"
+      }
+    ],
+    "blockPoliticalTopics": true,
+    "blockProfanity": true,
+    "responseLength": "medium",
+    "allowImageUpload": false,
+    "allowedFileTypes": {
+      "image": true,
+      "pdf": true,
+      "docx": false
+    },
+    "rateLimit": {
+      "enabled": false,
+      "rpm": 10,
+      "tpm": 20000
+    }
+  },
+  "skjggsdf": {
+    "color": "#ff0000",
+    "subtitle": "Sosyal Hizmetler",
+    "welcomeMessage": "Merhaba! Ben Konya Büyükşehir Belediyesi dijital asistanı Huna. Size nasıl yardımcı olabilirim? 🌟",
+    "systemPrompt": "Sen Konya Büyükşehir Belediyesi Sosyal Hizmetler Dairesi'nin dijital asistanı Huna'sın. Sosyal yardım, sosyal kart, erzak yardımı gibi konularda vatandaşa yol göster. KESİN KURAL: Asla hayali bilgi uydurma, başvuru süreçlerinde ilgili birime veya 444 55 42 Açık Kapı hattına yönlendir.",
+    "botName": "betülai",
+    "position": "left",
+    "logoEmoji": "🐺",
+    "logoUrl": "",
+    "maintenanceMode": false,
+    "maintenanceMessage": "Huna AI şu anda bakımda. Lütfen daha sonra tekrar deneyin.",
+    "faqList": [
+      {
+        "tr": "Erzak yardımı nasıl alırım?",
+        "en": "How can I get food assistance?"
+      },
+      {
+        "tr": "Sosyal kart başvurusu nasıl yapılır?",
+        "en": "How to apply for a social card?"
+      },
+      {
+        "tr": "Engelli vatandaşlara yönelik destekler nelerdir?",
+        "en": "What support is available for citizens with disabilities?"
+      }
+    ],
+    "blockPoliticalTopics": false,
+    "blockProfanity": false,
+    "responseLength": "short",
+    "allowImageUpload": true,
+    "allowedFileTypes": {
+      "image": true,
+      "pdf": true,
+      "docx": true
+    },
+    "rateLimit": {
+      "enabled": true,
+      "rpm": 10,
+      "tpm": 20000
+    }
+  }
+}

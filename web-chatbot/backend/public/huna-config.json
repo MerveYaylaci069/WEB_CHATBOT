@@ -1,0 +1,5 @@
+{
+    "endpoint": "http://10.199.0.11/v1/chat/completions",
+    "apiKey": "stj-cb277efdd078c422eb11e2d10785",
+    "modelName": "qwen2.5-coder"
+}

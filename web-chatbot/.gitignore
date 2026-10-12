@@ -1,0 +1,8 @@
+src/huna-config.json
+backend/logs/
+backend/data/feedback.json
+backend/data/conversations.json
+.env
+**/.env
+backend/data/llm-settings.json
+
